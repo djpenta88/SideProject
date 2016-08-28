@@ -1,0 +1,18 @@
+{
+  "name": "sideproject",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "hey"
+  ],
+  "license": "ISC",
+  "homepage": "no",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
