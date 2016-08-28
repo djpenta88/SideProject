@@ -23,7 +23,5 @@ gulp.task('serve', [], function () {
 		}
 	});
 
-	gulp.watch([SRC + '/**/*.html'], reload);
-	gulp.watch([SRC + '/**/*.js'], reload);
-
+	gulp.watch([SRC + '/**/*.html', SRC + '/**/*.js'], reload);
 });
